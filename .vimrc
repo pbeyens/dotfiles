@@ -8,6 +8,7 @@ set ignorecase
 set hlsearch
 set nobackup
 " set nu
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 " Keymappings
 map <F6> :set number!<bar>set number?<CR>
@@ -18,10 +19,10 @@ nmap + zfa{
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 " match OverLength /\%81v.\+/
 
-syntax match Tab /\t/
-hi Tab gui=underline guifg=blue ctermbg=blue
+"syntax match Tab /\t/
+"hi Tab gui=underline guifg=blue ctermbg=blue
 
-set tags=./tags;../../../../
+"set tags=./tags;../../../../
 
 set path=$PWD/**
 set splitright
