@@ -10,11 +10,14 @@ set nobackup
 " set nu
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
+let g:EasyMotion_leader_key = '<Leader>'
+
 " Keymappings
 map <F6> :set number!<bar>set number?<CR>
 map <F7> :set list!<bar>set list?<CR>
+nnoremap <silent> <F8> :TlistToggle<CR>
 nmap + zfa{
-nmap <C-\> "zyiw:exe "cs f g ".@z.""<CR>
+" nmap <C-\> "zyiw:exe "cs f g ".@z.""<CR>
 
 " set colorcolumn=80
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929
