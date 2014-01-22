@@ -1,0 +1,5 @@
+dmenu-4.5/*.o
+dmenu-4.5/dmenu
+dmenu-4.5/stest
+dwm-6.0/*.o
+dwm-6.0/dwm
