@@ -1,0 +1,9 @@
+[user]
+	name = Pieter Beyens
+	email = pieter.beyens@agfa.com
+[core]
+	editor = vim
+[push]
+	default = current
+[pull]
+	default = current
