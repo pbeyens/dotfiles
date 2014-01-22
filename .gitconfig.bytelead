@@ -3,3 +3,7 @@
 	name = Pieter Beyens
 [core]
 	editor = vim
+[push]
+	default = current
+[pull]
+	default = current
