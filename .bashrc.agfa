@@ -117,7 +117,7 @@ mygrep() {
 	grep -rni $1 *
 }
 
-export PATH=/sbin:/home/aprsu/conios/buildroot/output/host/usr/bin:$PATH
+export PATH=~/git/conios/libconapp/tools/fsm-tool:/sbin:/home/aprsu/conios/buildroot/output/host/usr/bin:$PATH
 export LD_LIBRARY_PATH=/home/aprsu/conios/buildroot/output/host/usr/lib:$LD_LIBRARY_PATH
 alias csdb='export CSCOPE_DB=$PWD/cscope.out'
 alias ub='cd ~/conios/u-boot'

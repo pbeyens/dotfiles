@@ -16,7 +16,9 @@ let g:EasyMotion_leader_key = '<Leader>'
 map <F6> :set number!<bar>set number?<CR>
 map <F7> :set list!<bar>set list?<CR>
 nnoremap <silent> <F8> :TlistToggle<CR>
+map <F10> :%!xxd<CR>
 nmap + zfa{
+nmap <F5> :noh<CR>
 " nmap <C-\> "zyiw:exe "cs f g ".@z.""<CR>
 
 " set colorcolumn=80
@@ -30,3 +32,4 @@ nmap + zfa{
 
 set path=$PWD/**
 set splitright
+set formatoptions+=r
