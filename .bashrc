@@ -110,6 +110,15 @@ if ! shopt -oq posix; then
 fi
 
 # pbeyens
-export PATH=/home/aprsu/conios/buildroot/output/host/usr/bin:$PATH
+myfind() {
+	find -name "*$1*"
+}
+mygrep() {
+	grep -rni $1 *
+}
+alias f=myfind
+alias g=mygrep
+
+export PATH=/home/pbeyens/RTOS/rtos/toolchain/gcc-arm-none-eabi-4_6-2012q4/bin:/home/aprsu/conios/buildroot/output/host/usr/bin:$PATH
 export LD_LIBRARY_PATH=~/conios/buildroot/output/host/usr/lib:$LD_LIBRARY_PATH
 alias csdb='export CSCOPE_DB=$PWD/cscope.out'
